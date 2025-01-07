@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import Login from './login';
 import { Link, NavLink } from 'react-router-dom';
 import Header from './Navbar';
+import Login from './login';
 
 const Home = () => {
       const [showLogin,setShowlogin]=useState(false);
