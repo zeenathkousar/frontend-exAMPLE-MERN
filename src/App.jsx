@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import Login from './Login';
 import { Routes, Route } from 'react-router-dom'
 import Home from './Home';
 import Cart from './Cart';
+import LoginComponent from './LoginComponent';
 
 const App = () => {
   return (
@@ -10,7 +10,7 @@ const App = () => {
 
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/login' element={<Login />} />    
+        <Route path='/login' element={<LoginComponent />} />    
         <Route path='/cart' element={<Cart/>} />
 
       </Routes>

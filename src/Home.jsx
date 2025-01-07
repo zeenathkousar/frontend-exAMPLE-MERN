@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom';
 import Header from './Navbar';
-import Login from './login';
+import LoginComponent from './LoginComponent';
 
 const Home = () => {
       const [showLogin,setShowlogin]=useState(false);
@@ -11,7 +11,7 @@ const Home = () => {
         Home page
         <Header />
             
-           {setShowlogin?<Login setShowlogin={setShowlogin}/>:<></>} 
+           {setShowlogin?<LoginComponent setShowlogin={setShowlogin}/>:<></>} 
         
            {/* <Signup/> */}
         
