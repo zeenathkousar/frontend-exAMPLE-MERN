@@ -3,7 +3,7 @@ export const  StoreContext=createContext(null);
 import axios from "axios";
 
 const StoreContextProvider=(props)=>{
-    const url="http://localhost:4000";
+    const url="https://backendexample-1vyf.onrender.com";
     const [token,setToken]=useState("")
     console.log('token is:')
     console.log(token);
